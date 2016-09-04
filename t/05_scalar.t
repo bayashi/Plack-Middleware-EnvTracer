@@ -27,7 +27,7 @@ use Test::More;
             my $res = $cb->(GET '/');
 
             is $res->code, 200;
-            like $res->content, qr{<p>scalar:\d+/\d+</p>};
+            like $res->content, qr{<p>scalar:\d+(/\d+)?</p>};
         };
     };
 
