@@ -9,7 +9,7 @@ my $builder = Module::Build->new(
     dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
     dist_version_from   => 'lib/Plack/Middleware/EnvTracer.pm',
     configure_requires  => {
-        'Module::Build' => 0.38,
+        'Module::Build' => 0.42,
     },
     build_requires      => {
         'Test::More' => 0.88,
