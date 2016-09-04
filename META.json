@@ -4,7 +4,7 @@
       "Dai Okabayashi <bayashi@cpan.org>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.130880",
+   "generated_by" : "Module::Build version 0.4218",
    "license" : [
       "perl_5"
    ],
@@ -25,7 +25,7 @@
       },
       "configure" : {
          "requires" : {
-            "Module::Build" : "0.38"
+            "Module::Build" : "0.4218"
          }
       },
       "runtime" : {
@@ -40,7 +40,7 @@
    "provides" : {
       "Plack::Middleware::EnvTracer" : {
          "file" : "lib/Plack/Middleware/EnvTracer.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -55,5 +55,6 @@
          "url" : "http://github.com/bayashi/Plack-Middleware-EnvTracer"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02",
+   "x_serialization_backend" : "JSON::PP version 2.27300"
 }

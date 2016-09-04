@@ -4,7 +4,7 @@ use warnings;
 use parent 'Plack::Middleware';
 use Plack::Util::Accessor qw/methods callback/;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 my $ENABLE = +{};
 
