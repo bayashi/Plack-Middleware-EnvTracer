@@ -168,7 +168,7 @@ And you can set the C<callback> option.
 =head1 REPOSITORY
 
 Plack::Middleware::EnvTracer is hosted on github
-<http://github.com/bayashi/Plack-Middleware-EnvTracer>
+L<http://github.com/bayashi/Plack-Middleware-EnvTracer>
 
 Welcome your patches and issues :D
 
